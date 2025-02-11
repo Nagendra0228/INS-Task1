@@ -71,6 +71,15 @@ Decryption is the inverse operation of encryption, with each letter being shifte
 It involves the same number of steps: O(n).
 ✅ Total Complexity: O(n)
 
+![image](https://github.com/user-attachments/assets/e20b768a-76c8-4915-9607-8d9acb7bdb55)
+
+
+Summary
+1.Playfair Cipher and Vigenère Cipher → O(n) (efficient for long texts).
+2.Hill Cipher (2×2 matrix) → O(n) (fast), but O(m³) for large matrices, making it slower.
+3.Hill Cipher (m×m matrix) → O(m³) (high computational cost for large matrices).
+Thus, Hill Cipher is the most computationally expensive among the three due to matrix operations, while Vigenère and Playfair Ciphers are more efficient. 🚀
+
 
 
 

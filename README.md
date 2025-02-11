@@ -57,3 +57,20 @@ Convert numbers back to text: O(n)
 ✅ Total Complexity: O(m³) + O(n) ≈ O(m³) (dominated by matrix inverse and multiplication)
 
 
+3. Vigenère Cipher
+The Vigenère cipher is a polyalphabetic substitution cipher where each letter is shifted based on a repeating key.
+
+Encryption Complexity
+Preprocessing (Key Expansion to match plaintext length): O(n)
+Shift each letter based on the key: O(n)
+Each character transformation is a simple modulo operation (O(1) per character).
+✅ Total Complexity: O(n)
+
+Decryption Complexity
+Decryption is the inverse operation of encryption, with each letter being shifted backward.
+It involves the same number of steps: O(n).
+✅ Total Complexity: O(n)
+
+
+
+
